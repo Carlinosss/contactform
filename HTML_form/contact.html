@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulieren</title>
+    <a href="index.html"> Indexpagina</a><br><br>
+</head>
+
+<form name="contact" method="post" data-netlify="true">
+    <p>
+        <label>Your Name: <input type="text" name="name" /></label>
+    </p>
+    <p>
+        <label>Emailadres: <input type="email" name="email" /></label><br>
+    </p>
+    <p>
+        <label>Telephone number: <input type="tel" name="Telephone" /></label><br>
+    </p>
+    <p>
+        <label>Age: <input type="number" name="Age" /></label><br>
+    </p>
+    <p>
+        <label>Date of birth: <input type="date" name="date" /></label><br>
+    </p>
+    <p>
+        <label>Gender: </label>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="gender">Male</label>
+
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="gender">Female</label><br>
+
+    </p>
+    <p>
+        <label>Favorite cuisine: </label>
+        <input type="checkbox" id="French" name="Favorite cuisine" value="French">
+        <label for="Favorite cuisine">French</label>
+
+        <input type="checkbox" id="Italian" name="Favorite cuisine" value="Italian">
+        <label for="Favorite cuisine">Italian</label>
+
+        <input type="checkbox" id="Spanish" name="Favorite cuisine" value="Spanish">
+        <label for="Favorite cuisine">Spanish</label>
+
+        <input type="checkbox" id="Arabic" name="Favorite cuisine" value="Arabic">
+        <label for="Favorite cuisine">Arabic</label><br>
+    </p>
+    <p>
+        <label for="favaproncolor">Select your favorite apron color:</label>
+        <input type="color" id="favaproncolor" name="favaproncolor" value="#fff"><br><br>
+    </p>
+    <p>
+        <label>Your biography: <textarea name="Your biography"></textarea></label>
+    </p>
+    <p>
+        <label for="latestrecipe">Upload your latest recipe:</label>
+        <input type="file" id="latestrecipe" name="latestrecipe"><br><br>
+    </p>
+    <p>
+        <label for="website">URL to recipe website: </label>
+        <input type="url" id="website" name="website">
+    </p>
+    <p>
+        <button type="reset">Reset</button>
+    </p>
+    <p>
+        <button type="submit">Submit</button>
+    </p>
+
+</form>
+
+
+
+</html>
